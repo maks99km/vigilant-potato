@@ -36,8 +36,6 @@ class _MyBodyState extends State<MyBody> {
                 setState(() {
                   leftNum = Random().nextInt(6) + 1;
                 });
-
-                print(leftNum);
               },
               child: Image.asset('images/$leftNum.png'),
             ),
